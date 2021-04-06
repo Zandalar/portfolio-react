@@ -1,0 +1,24 @@
+@import url(./__container/skills__container.css);
+@import url(./__name/skills__name.css);
+@import url(./__item/skills__item.css);
+@import url(./__logo/skills__logo.css);
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6B6E70;
+  position: relative;
+  padding: 100px 0;
+}
+
+.skills::before {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: '';
+  background-color: rgba(0, 0, 0, .3);
+}

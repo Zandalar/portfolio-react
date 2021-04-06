@@ -1,0 +1,8 @@
+.about__photo {
+  width: 270px;
+  height: 320px;
+  border-radius: 10px;
+  object-position: top;
+  object-fit: cover;
+  margin-right: 50px;
+}

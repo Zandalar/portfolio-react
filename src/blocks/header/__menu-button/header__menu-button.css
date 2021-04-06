@@ -1,0 +1,23 @@
+.header__menu-button {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 24px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, #86C232, #61892F 50%, #fff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.header__menu-button:hover {
+  background-position: 0 100%;
+}
+
+

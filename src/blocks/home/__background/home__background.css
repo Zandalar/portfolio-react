@@ -1,0 +1,24 @@
+.home__background {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../../images/bg_forest.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__background::before {
+  background-image: url(../../../images/icon__dot.svg);
+  background-size: 2px 2px;
+  background-repeat: repeat;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
