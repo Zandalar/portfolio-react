@@ -1,9 +1,11 @@
 import React from 'react';
 import photo from '../images/author.jpg';
+import SectionTitle from './SectionTitle';
 
 function About() {
   return (
     <section className='about' id='section__about'>
+      <SectionTitle title='About me' />
       <div className='about__container'>
         <img className='about__photo' src={photo} alt='author' />
         <div className='about__description'>

@@ -9,10 +9,12 @@ import figma from '../images/logo__figma.svg';
 import express from '../images/logo__express.svg';
 import webpack from '../images/logo__webpack.svg';
 import nginx from '../images/logo__nginx.svg';
+import SectionTitle from './SectionTitle';
 
 function Skills() {
   return (
     <section className='skills' id='section__skills'>
+      <SectionTitle title='Skills' />
       <ul className='skills__container'>
         <li className='skills__item'>
           <img className='skills__logo' src={html} alt='html'/>

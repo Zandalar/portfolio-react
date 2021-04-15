@@ -1,7 +1,23 @@
 .skills__item {
-  width: 200px;
+  width: 150px;
   height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  box-shadow: 0 0 20px #fff, 0 0 10px #008000, 0 0 6px #0000ff;
+  border-radius: 20px;
+}
+
+.skills__item::before {
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: linear-gradient(45deg, #61892F, #86C232 );
+  opacity: .3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  z-index: -1;
 }
