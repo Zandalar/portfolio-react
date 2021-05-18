@@ -2,6 +2,7 @@
 @import url('./__container/home__container.css');
 @import url('./__title/home__title.css');
 @import url('./__text/home__text.css');
+@import url('__line/home__line.css');
 
 .home {
   width: 100%;
